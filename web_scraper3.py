@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import datetime
+# hi im am himasnhi
 
 # only the URL is changed; the rest of the code is identical
 url = "https://www.zath.co.uk/"
@@ -17,3 +18,4 @@ for blog in blogs:
     pretty_date = blog_datetime.strftime("%b %d %Y")
 
     print(f"{pretty_date} - {title}")
+
